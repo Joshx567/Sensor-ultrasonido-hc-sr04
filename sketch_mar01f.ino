@@ -2,7 +2,7 @@
   #define trigger 15
   float cm = 0;
 
-  int ports[3] = {22, 33, 26}; //Puertos del MCU
+  int ports[3] = {32, 33, 26} //Puertos del MCU
  
   void setup() 
   {
