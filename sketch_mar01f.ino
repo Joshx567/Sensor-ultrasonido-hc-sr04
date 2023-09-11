@@ -13,7 +13,7 @@
     pinMode(trigger, OUTPUT);
     pinMode(echo, INPUT);
     digitalWrite(trigger, LOW);//Inicializamos el pin con 0
-    Serial.begin(9600);
+    Serial.begin(115200);
   }
 
   long readUltrasonicDistance(int triggerPin, int echoPin)
